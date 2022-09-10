@@ -73,6 +73,7 @@ REST_FRAMEWORK = {
             )
 
 }
+AUTH_USER_MODEL = 'authApp.Usuario'
 
 
 ROOT_URLCONF = 'authProject.urls'
@@ -152,3 +153,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
+
