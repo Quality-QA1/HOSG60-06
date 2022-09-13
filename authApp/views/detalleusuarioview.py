@@ -10,6 +10,7 @@ class DetalleUsuarioView(generics.RetrieveAPIView):
     queryset = Usuario.objects.all()
     serializer_class = UsuarioSerializer
     permission_classes = (IsAuthenticated,)
+    
     def get(self, request, *args, **kwargs):
         token = request.META.get('HTTP_AUTHORIZATION')[7:]
         tokenBackend = TokenBackend(algorithm=settings.SIMPLE_JWT['ALGORITHM'])
