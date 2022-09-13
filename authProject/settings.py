@@ -73,6 +73,7 @@ REST_FRAMEWORK = {
             )
 
 }
+
 AUTH_USER_MODEL = 'authApp.Usuario'
 
 
@@ -117,6 +118,7 @@ DATABASES = {
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
+
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
