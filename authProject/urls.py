@@ -25,4 +25,5 @@ urlpatterns = [
     path('user/', views.CrearUsuarioView.as_view()),
     path('user/<int:pk>/', views.DetalleUsuarioView.as_view()),
     path('Psalud/', views.CrearPersonalSaludView.as_view()),
+    path('Psalud/<int:pk>/', views.DetallePersonalSaludView.as_view()),
 ]
