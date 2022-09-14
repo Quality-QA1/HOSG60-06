@@ -1,4 +1,10 @@
 from .crearpersonalsaludview import CrearPersonalSaludView
 from .crearusuarioview import CrearUsuarioView
+from .crearpacienteview import CrearPacienteView
+from .crearfamiliarview import CrearFamiliarView
+
+
 from .detalleusuarioview import DetalleUsuarioView
 from .detallepersonalsaludview import DetallePersonalSaludView
+from .detallepacienteview import DetallePacienteView
+from .detallefamiliarview import DetalleFamiliarView
